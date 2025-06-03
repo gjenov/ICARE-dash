@@ -4,7 +4,7 @@
 This repo uses video and truth labels from the ICARE dataset at UC Davis Medical School, courtesy of Professor Weakley
 ```
 ## smart_home_dashboard.py
-Streamlit Dashboard using annotated .xlsx sheets
+Streamlit Dashboard for ICARE dataset using annotated .xlsx sheets
 Ensure your environment supports:
 - Cv2
 - Streamlit
@@ -29,3 +29,9 @@ modify: room_buffer_threshold and buffer_frames_threshold to make the algorithm 
 Takes a .xlsx as an input to generate a historical GUI
 
 Application runs in its own python window locally
+
+## CASAS_dashboard.py
+Similiar usage to ICARE dashboard
+Input is the raw .txt file from the CASAS website. For this application we used the public tm003.txt
+Every row of the .txt contains:
+["date", "time", "sensor", "status", "activity"]
