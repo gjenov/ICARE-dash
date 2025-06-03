@@ -14,8 +14,7 @@ Modify filename local to session state to access different .xlsx
 
 Annotated sheets can be obtained from spread_annotation.ipynb
 
-Dashboard:
-![[Pasted image 20250602185306.png]]
+
 ## spread_annotation.ipynb
 This application uses Yolov11 and rule based activity recognition to annotate actions and populate a spreadsheet.
 
